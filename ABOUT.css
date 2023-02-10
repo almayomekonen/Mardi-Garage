@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+
+.top-nav {
+  background-color: #f2cc02;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: "Henny Penny", cursive;
+}
+
+.img-logo{
+  width: 200px;
+}
+
+.top-nav p {
+  margin-bottom: 0;
+  display: inline-block;
+  margin-right: 16px;
+  color: #ffff;
+}
+
+.top-nav i,
+.top-nav span {
+  vertical-align: middle;
+  color: white;
+}
+
+.social-links a {
+  width: 36px;
+  height: 37px;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  border-radius: 50%;
+}
+
+.social-links a:hover {
+  background-color: white;
+  color: #f2cc02;
+}
+
+.navbar {
+  box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link .active {
+  color: #ffff;
+  border: 1px solid #f2cc02;
+  background-color: #f2cc02;
+}
+
+.navbar {
+  font-weight: 700;
+  font-size: 20px;
+  color: #092032;
+  padding: 5% 3% 5% 0;
+  font-family: 'Henny Penny', cursive; 
+}
+
+
+.about {
+  width: 100%;
+  padding: 78px 0px;
+  background-color: #191919;
+}
+
+.about img {
+  height: auto;
+  width: 420px;
+}
+
+.about-text {
+  width: 550px;
+}
+
+
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 100px;
+ 
+}
+
+.about-text h1 {
+  color: #fff;
+  font-size: 80px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  font-family: "Henny Penny", cursive;
+}
+
+.about-text h5 {
+  color: #fff;
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+
+span {
+  color: crimson;
+}
+
+.about-text p {
+  color: #fcfc;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 48px;
+}
+
+button{
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+button:hover{
+background: transparent;
+border: 2px solid crimson;
+cursor: pointer;
+}
+
+
+footer {
+  text-align: center;
+  color: white;
+  padding-top: 80px;
+  background: linear-gradient(rgba(0, 0, 0, 0.507), #000),
+    url(Images/i9pvulsgoiyyblyzutrg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Henny Penny", cursive;
+}
+
+footer .navbar-brand {
+  color: white;
+  margin-bottom: 24px;
+  display: inline-block;
+}
+
+footer,
+h1 {
+  color: white;
+}
+
+.footer-top {
+  margin-bottom: 40px;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(128, 128, 128, 0.479);
+  padding-top: 20px;
+  font-family: "Henny Penny", cursive;
+}
+
+footer .social-links a {
+  margin-left: 5px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #f2cc02;
+}
+
+#exampleModal{
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+
+
+
+
+
+
